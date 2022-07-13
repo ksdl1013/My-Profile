@@ -1,0 +1,156 @@
+body {
+    background-image: url(background3.png);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 15px;
+}
+
+.button {
+    margin: 10px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255, 255, 255, 0);
+    font-size: large;
+    padding: 2px;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 45px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.skills {
+    border: 2px solid rgb(238, 130, 238);
+}
+
+.skills:hover {
+    background-image: linear-gradient(-60deg, rgba(238, 130, 238, 0.5), rgba(238, 130, 238, 0.2));
+}
+
+.projects {
+    border: 2px solid rgb(75, 0, 130);
+}
+
+.projects:hover {
+    background-image: linear-gradient(-60deg, rgba(75, 0, 130, 0.5), rgba(75, 0, 130, 0.2));
+}
+
+.experience {
+    border: 2px solid rgb(0, 0, 255);
+}
+
+.experience:hover {
+    background-image: linear-gradient(-60deg, rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.2));
+}
+
+.certifications {
+    border: 2px solid rgb(0, 128, 0);
+}
+
+.certifications:hover {
+    background-image: linear-gradient(-60deg, rgba(0, 128, 0, 0.5), rgba(0, 128, 0, 0.2));
+}
+
+.achievements {
+    border: 2px solid rgb(255, 255, 0);
+}
+
+.achievements:hover {
+    background-image: linear-gradient(-60deg, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.2));
+}
+
+.activities {
+    border: 2px solid rgb(255, 165, 0);
+}
+
+.activities:hover {
+    background-image: linear-gradient(-60deg, rgba(255, 165, 0, 0.5), rgba(255, 165, 0, 0.2));
+}
+
+.contact {
+    border: 2px solid red;
+}
+
+.contact:hover {
+    background-image: linear-gradient(-60deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.2));
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.body {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.education,
+.experiences {
+    flex-direction: column;
+    width: 100%;
+}
+
+.experiences {
+    margin-left: 150px;
+}
+
+.heading {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 3em;
+    color: rgb(0, 0, 179);
+}
+
+ul {
+    opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    padding-inline-start: 10px;
+    padding: 10px;
+    --b: 10px;
+    padding: var(--b);
+    border: calc(2*var(--b)) solid #0000;
+    outline: 1px solid rgb(0, 0, 179, 0.5);
+    outline-offset: calc(-1*var(--b));
+    background: conic-gradient(from 90deg at 1px 1px, #e6e6ff 90deg, rgb(0, 0, 179, 0.5) 0);
+}
+
+
+h3 {
+    font-size: xx-large;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    color: #000066;
+}
+
+h4 {
+    font-size: x-large;
+    color: #00004d;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+p {
+    margin-block-start: 5px;
+    margin-block-end: 20px;
+    margin-left: 30px;
+    font-size: large;
+}

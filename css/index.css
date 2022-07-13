@@ -1,0 +1,182 @@
+body {
+    background-image: url(background3.png);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 15px;
+}
+
+.button {
+    margin: 10px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255, 255, 255, 0);
+    font-size: large;
+    padding: 2px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 45px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.skills {
+    border: 2px solid rgb(238, 130, 238);
+}
+
+.skills:hover {
+    background-image: linear-gradient(-60deg, rgba(238, 130, 238, 0.5), rgba(238, 130, 238, 0.2));
+}
+
+.projects {
+    border: 2px solid rgb(75, 0, 130);
+}
+
+.projects:hover {
+    background-image: linear-gradient(-60deg, rgba(75, 0, 130, 0.5), rgba(75, 0, 130, 0.2));
+}
+
+.experience {
+    border: 2px solid rgb(0, 0, 255);
+}
+
+.experience:hover {
+    background-image: linear-gradient(-60deg, rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.2));
+}
+
+.certifications {
+    border: 2px solid rgb(0, 128, 0);
+}
+
+.certifications:hover {
+    background-image: linear-gradient(-60deg, rgba(0, 128, 0, 0.5), rgba(0, 128, 0, 0.2));
+}
+
+.achievements {
+    border: 2px solid rgb(255, 255, 0);
+}
+
+.achievements:hover {
+    background-image: linear-gradient(-60deg, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0.2));
+}
+
+.activities {
+    border: 2px solid rgb(255, 165, 0);
+}
+
+.activities:hover {
+    background-image: linear-gradient(-60deg, rgba(255, 165, 0, 0.5), rgba(255, 165, 0, 0.2));
+}
+
+.contact {
+    border: 2px solid red;
+}
+
+.contact:hover {
+    background-image: linear-gradient(-60deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.2));
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.body {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 2em;
+    color: rgb(255, 26, 64);
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100px;
+}
+
+h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+img {
+    height: 400px;
+    border: 5px solid #ff6680;
+    border-style: ridge;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.img-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+    margin-right: 10%;
+}
+
+ul {
+    opacity: 0.8;
+    list-style-type: none;
+    padding-inline-start: 10px;
+
+}
+
+.greeting {
+    font-size: xx-large;
+    color: rgb(255, 51, 85);
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.text {
+    opacity: 0.8;
+    height: fit-content;
+    padding: 10px;
+    --b: 10px;
+    padding: var(--b);
+    border: calc(2*var(--b)) solid #0000;
+    outline: 1px solid rgb(255, 51, 85, 0.5);
+    outline-offset: calc(-1*var(--b));
+    background: conic-gradient(from 90deg at 1px 1px, #ffe6ea 90deg, rgb(255, 51, 85, 0.5) 0);
+}
+
+.p {
+    margin-left: 30px;
+}
+
+.p1 {
+    font-size: larger;
+}
+
+.cv {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255, 255, 255, 0);
+    font-size: large;
+    padding: 2px;
+    text-align: center;
+    border-radius: 3px;
+    border-color: #ff1a40;
+    background-image: linear-gradient(-60deg, rgba(255, 51, 85, 0.5), rgba(255, 51, 85, 0.2));
+
+}
+
+.cv:hover {
+    background-image: linear-gradient(-60deg, rgba(255, 26, 64, 0.9), rgba(255, 26, 64, 0.5));
+}
